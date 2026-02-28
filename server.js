@@ -15,6 +15,10 @@ app.get('/section', (req, res)=> {
     res.send(`This is a section page!`);
 })
 
+app.get('/pages', (req, res)=> {
+    res.send(`This is a page!`);
+})
+
 app.listen(port, ()=>{
     console.log(`Server is running on port ${port}`);
 })
